@@ -9,7 +9,11 @@ import java.util.Scanner;
 public class SkillBuilder1 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        //TODO : Replace this comment with your code
+        System.out.println("You're Jane's friend!");
+        System.out.println("What's your name?");
+        String name = input.nextLine();
+        System.out.println("Enter a floating-point number:");
+        double spiceValue = input.nextDouble();
     }
 
     public static void calcWallPaint() {
